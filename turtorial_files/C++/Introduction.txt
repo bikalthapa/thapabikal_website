@@ -1,0 +1,15 @@
+<p class="card-text">
+C++ was developed by bjarni Stroustroup in 1970 AD. It is the object oriented programming language.
+it is also known as the hybrid language. The basic syntax of C++ is given below :
+</p>
+
+<div class="card">
+<pre class="card-text" style="padding:10px; font-size:18px;">
+#include<iostream>
+using namespace std;
+int main(){
+	cout<<"Hello World";
+	return 0;
+}
+</pre>
+</div>

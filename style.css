@@ -1,0 +1,44 @@
+.footer_div{
+	bottom: 0px;
+	width: 100%;
+}
+.anim_container{
+	display: inline-flex;
+}
+.dynamic_text{
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	margin-left: -20px;
+}
+.dynamic_text li{
+	list-style: none;
+	color: #FC6D60;
+	position: relative;
+	top: 0;
+	animation:  slide 6s steps(3) infinite;
+}
+@keyframes slide{
+	100%{
+		top:  -120px;
+	}
+}
+.dynamic_text li span{
+	position: relative;
+}
+.dynamic_text li span:after{
+	content: "";
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	height: 75%;
+	width: 100%;
+	border-left: 2px solid #FC6D60;
+	animation:  typing 2s infinite;
+	background-color: white;
+}
+@keyframes typing{
+	100%{
+		left: 100%;
+	}
+}

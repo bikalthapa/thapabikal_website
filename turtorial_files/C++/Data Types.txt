@@ -1,0 +1,16 @@
+<div class="card">
+<pre class="card-text" style="padding:10px; font-size:18px;">
+#include&lt;iostream&gt;
+using namespace std;
+int main(){
+	int a = 10;
+	float b = 200.234;
+	char c = '2';
+
+	cout&lt;a&lt;&lt;endl;
+	cout&lt;&lt;b&lt;&lt;endl;
+	cout&lt;&lt;c&lt;&lt;endl;
+	return 0;
+}
+</pre>
+</div>
